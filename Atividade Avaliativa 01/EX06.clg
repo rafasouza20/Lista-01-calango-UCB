@@ -1,0 +1,36 @@
+algoritmo notaDEALUNOS;
+// Síntese
+//  Objetivo: Ler 2 valores A e B que correspondem a 2 notas de aluno e calcular a média.
+//  Entrada : 2 valores
+//  Saída   : media das notas
+
+
+principal
+real notaA, notaB, media;
+
+escreval("digite a nota do primeiro aluno: ");
+leia(notaA);
+     se((notaA > 10 ) ou (notaA <0)) entao
+     escreval("valor inválido");
+         senao
+             se((notaA >= 0) e (notaA <=10))entao
+         escreval("nota enviada com sucesso");
+         escreval("");
+         fimSe
+     fimSe
+escreval("digite a nota do segundo aluno: ");
+leia(notaB);
+     se((notaB > 10 ) ou (notaB <0)) entao
+     escreval("valor inválido");
+         senao
+             se((notaB >= 0) e (notaB <=10))entao
+         escreval("nota enviada com sucesso");
+         escreval("");
+         fimSe
+     fimSe
+
+
+media = ((notaA * 3.5) + (notaB * 7.5)) / (3.5 + 7.5);
+escreval("De acordo com os valores das 2 notas, a média do aluno é = ",media);
+
+fimPrincipal

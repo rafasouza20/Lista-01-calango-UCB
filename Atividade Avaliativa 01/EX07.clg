@@ -1,0 +1,38 @@
+algoritmo funcionario;
+// Síntese
+//  Objetivo: escrever um programa que leia o nome do funcionario, o sexo (M/F), numero da matrícula, número de horas trabalhadas, valor que recebe por hora, calcular o salário.
+//  Entrada : nome, sexo, numero da matrícula, horas trabalhadas, valor que recebe por hora.
+//  Saída   : mostrar o salário e todos os dados.
+
+
+principal
+texto nome, sexo;
+inteiro matricula, horas;
+real recebeporhoras, salario;
+     escreval("Insira seus dados a seguir para calcular seu salário");
+     escreval("");
+     escreval("Digite seu nome completo: ");
+     leia(nome);
+     escreval("Digite seu sexo, para masculino digite (M), para feminino digite (F): ");
+     leia(sexo);
+     escreval("Digite sua matrícula: ");
+     leia(matricula);
+     escreval("Digite o número de horas trabalhadas: ");
+     leia(horas);
+     escreval("Digite o quanto você recebe por hora: ");
+     leia(recebeporhoras);
+
+salario=horas*recebeporhoras;
+
+escreval("");
+escreval("Nome: ",nome);
+escreval("Sexo: ",sexo);
+escreval("Matrícula: ",matricula);
+escreval("Horas trabalhadas: ",horas);
+escreva("Recebe: ",recebeporhoras);
+escreva(" por hora");
+escreval("");
+escreval("Seu salário de acordo com os dados é de: ",salario);
+
+
+fimPrincipal

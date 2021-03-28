@@ -1,0 +1,23 @@
+algoritmo mediaARITMETICA;
+// Síntese
+//  Objetivo: calcular a média de 3 números fornecidos pelo usuário
+//  Entrada : 3 números
+//  Saída   : média
+
+
+principal
+real num1, num2, num3, soma, media;
+escreval("Calcular a média aritmética de 3 números");
+escreval("");
+escreval("Digite o valor do primeiro número: ");
+leia(num1);
+escreval("Digite o valor do segundo número: ");
+leia(num2);
+escreval("digite o valor do terceiro número: ");
+leia(num3);
+soma=num1+num2+num3;
+media=soma/3;
+escreval("");
+escreval("A média aritmética de acordo com os números fornecidos pelo usuário é igual a: ",media);
+
+fimPrincipal

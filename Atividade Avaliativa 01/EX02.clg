@@ -1,0 +1,16 @@
+algoritmo areaDOCIRCULO;
+// Síntese
+//  Objetivo: calcular a área do círculo cujo o raio é fornecido pelo usuário
+//  Entrada : raio forncedido pelo usuário
+//  Saída   : área do círculo
+
+
+principal
+real raio, area;
+escreval("Digite o valor do raio para calcular a área do círculo: ");
+leia(raio);
+area=3.14*raio*raio;
+escreval("");
+escreval("A área do círculo é igual a: ",area);
+
+fimPrincipal

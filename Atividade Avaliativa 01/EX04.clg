@@ -1,0 +1,23 @@
+algoritmo resto;
+// Síntese
+//  Objetivo: calcular 2 números que forneça o resto e o quociente da divisão
+//  Entrada : 2 números
+//  Saída   : quociente e resto da divisão
+
+
+principal
+inteiro num1, num2, resultado, resto;
+escreval("Digite 2 valores para dividi-los");
+escreval("");
+escreval("Digite o dividendo: ");
+leia(num1);
+escreval("Digite o divisor: ");
+leia(num2);
+escreval("");
+resultado=num1/num2;
+resto=num1 mod num2;
+escreval("O quociente é igual a: ",resultado);
+escreval("");
+escreval("O resto é igual a: ",resto);
+
+fimPrincipal

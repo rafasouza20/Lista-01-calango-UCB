@@ -1,0 +1,23 @@
+algoritmo auxilioCONSTRUTOR;
+// Síntese
+//  Objetivo: Auxiliar um cosntrutor a descobrir a quantidade de rolos e de metros avulsos de fios que ele precisa adquirir.
+//  Entrada : metros
+//  Saída   : rolos e fios avulsos
+
+
+principal
+inteiro metros, fio1, fio2;
+escreval("Para o auxílio da obra, é necessário saber a quantidade de metros que serão necessários para calcular a quantidade de rolos e fios avulsos de resto");
+escreval("");
+escreval("Digite quantos metros serão necessários: ");
+leia(metros);
+//obs: cada rolo contém 50m de fios avulsos
+fio1=metros/50;
+fio2=metros mod 50;
+escreval("--------------------------------------------------------");
+escreval("");
+escreval("quantidade de rolos que precisam ser adquiridos: ",fio1);
+escreval("quantidade de fios em metros a serem utilizados: ",fio2);
+escreval("");
+escreval("-Observação: um rolo tem 50m de fios avulsos-");
+fimPrincipal
